@@ -1,3 +1,9 @@
+#### Installing
+Use your preferred plugin/rtp manager
+    
+Requires +python
+
+#### Using
 The plugin adds two new commands: 
 
     :CPPaste 

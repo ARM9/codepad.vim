@@ -1,21 +1,20 @@
 " Vim global plugin that provides access to the codepad.org pastebin.
 " Requires +python support.
 "
-" Add this to your ~/.vim/plugin/ directory. Then you can use
-"
 " :CPPaste
-"     to send the current buffer to codepad.org and open your pasted code
-"     in your webbrowser.
+"     to send the current buffer to codepad.org and copy the url to the
+"     clipboard.
 "
 " :CPRun
 "     to send the current buffer to codepad.org, execute it on their server,
 "     and open both the pasted source and the program output in your browser.
+"     Also copies the url to the clipboard.
 "
 " The correct filetype is automatically detected from the 'filetype' variable.
 "
-" Version:      1.4
-" Last Change:  30 jul 2010
-" Maintainer:   Nicolas Weber <nicolasweber at gmx.de>
+" Version:      1.5
+" Last Change:  23 sep 2015
+" Maintainer:   ARM9 <https://github.com/ARM9>
 
 
 if has('python')
