@@ -16,7 +16,7 @@ and copy the URL of the pasted snippet to the clipboard.
 
 to send the (range of the) current buffer to http://codepad.org,
 execute it on their server, and open both the pasted source and the
-program output in your browser. The URL of the pasted snippets is copied
+program output in your browser. The URL of the pasted code is copied
 to the clipboard as well. 
 
 
